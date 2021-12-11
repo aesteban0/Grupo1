@@ -15,6 +15,37 @@ knitr::opts_chunk$set(echo = TRUE)
 bla
 bla
 
+### Estado del arte
+De la revisión de los documentos y papers de los últimos tres años, se han encontrado los siguientes casos de estudio:
+
+- Hazmat facility location and routing analysis with explicit consideration of equity using the Gini coefficient
+N Romero, LK Nozick, N Xu - Transportation research part E: logistics and …, 2016 - Elsevier
+… This paper develops a model to analyze facility location and routing decisions in the context
+of … generation and illustrate that method using a realistic case study. We present a case
+… storage of all the cases for the same number of storage sites but without restricting equity
+
+-Emergency facility location under random network damage: Insights from the Istanbul case
+FS Salman, E Yücel - Computers & Operations Research, 2015 - Elsevier
+… of location problems studied until 2012 in conjunction with network design and transportation
+decisions for relief distribution. Here, we review studies related to facility location … Tractable
+cases of facility location on a network with a linear reliability order of links. In: Proceedings of
+
+- Strategy-proof mechanisms for facility location games with many facilities
+B Escoffier, L Gourves, NK Thang, F Pascual… - … on Algorithmic Decision …, 2011 - Springer
+… We study Facility Location Games that model the following problem in economics. Consider
+installation of public service facilities such as … report its location as being A1 and reduce its
+cost from 1 to 1 − ϵ or 0. We study two cases: (i) in profile f(y), there is a facility opened at A2;
+
+##Métodos más utilizados en los casos
+
+Se ha visto que en seis de los veinte artículos revisados el método utilizado es ORLoca de Muñoz et al
+
+## Breve explicación del método ORLoca
+BB va a pegar aquí el día martes su contribución.
+
+
+
+
 ### Método AHP (desarrollado por María) <- borrar paréntesis al terminar
 
 Hu, Y., Zhang, K., Yang, J., & Wu, Y. (2018). Application of hierarchical facility location-routing problem with optimization of an underground logistic system: a case study in China. Mathematical Problems in Engineering, 2018.
