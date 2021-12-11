@@ -8,6 +8,18 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## CAso de estudio del repatidor de frutos de mar
+
+### Antecedetes
+
+bla
+bla
+
+### Método AHP (desarrollado por María) <- borrar paréntesis al terminar
+
+Hu, Y., Zhang, K., Yang, J., & Wu, Y. (2018). Application of hierarchical facility location-routing problem with optimization of an underground logistic system: a case study in China. Mathematical Problems in Engineering, 2018.
+
+
 
 ## R Markdown
 
