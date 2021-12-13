@@ -44,7 +44,6 @@ chile<-loca.p(x, y,w, label = "")
 summary(chile)
 ```
 
-
 ## Cálculo de las Distancias mínimas
 
 ### Solución óptima al problema de localización
