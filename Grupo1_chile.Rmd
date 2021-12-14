@@ -5,6 +5,9 @@ date: "11/12/2021"
 output: html_document
 ---
 
+La empresa Datamedica SA, con sede en Santiago de Chile, tiene como objetivo la comercialización de equipos médicos para imagenología en todo el territorio chileno, lo que implica un rango de operación de más de 4.000km desde Arica a Puerto Williams. Dicho equipamiento médico es de mediana a alta complejidad, lo que significa que requiere de la instalación y puesta en marcha en el lugar donde funcionará, además de mantenciones periódicas llevadas a cabo por los especialistas de la empresa, lo que implica numerosos viajes en avión a las regiones alejadas de la capital.
+Con el objetivo de reducir costos y mejorar el servicio postventa, la empresa se plantea desplegar una sucursal en la macrozona norte del país para atender a los centros médicos de las ciudades de Arica, Iquique, Calama, Antofagasta y Copiapó.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
