@@ -8,6 +8,21 @@ output: html_document
 La empresa Datamedica SA, con sede en Santiago de Chile, tiene como objetivo la comercialización de equipos médicos para imagenología en todo el territorio chileno, lo que implica un rango de operación de más de 4.000km desde Arica a Puerto Williams. Dicho equipamiento médico es de mediana a alta complejidad, lo que significa que requiere de la instalación y puesta en marcha en el lugar donde funcionará, además de mantenciones periódicas llevadas a cabo por los especialistas de la empresa, lo que implica numerosos viajes en avión a las regiones alejadas de la capital.
 Con el objetivo de reducir costos y mejorar el servicio postventa, la empresa se plantea desplegar una sucursal en la macrozona norte del país para atender a los centros médicos de las ciudades de Arica, Iquique, Calama, Antofagasta y Copiapó.
 
+
+Justificación
+Se pretende investigar acercar métodos para establecer la ubicación óptima de las instalaciones de una sucursal en el norte de Chile, ya que la organización actual implica numerosos traslados semanales a zonas remotas de la sede principal para brindar servicios a los clientes, lo que trae como consecuencia un costo logístico elevado en comparación con otras áreas de la empresa, además de atrasos recurrentes en la respuesta de las solicitudes de los clientes.
+Además de lo expuesto en el párrafo anterior, se debe tomar en cuenta que el mundo atraviesa una crisis sanitaria sin precedentes en la historia reciente, que expone los problemas en las líneas de abastecimiento global y local, tanto para transporte de mercancías como de personas, por lo que es menester que las empresas busquen métodos que refuercen su cadena de logística, sobre todo si está involucrado el sistema de salud nacional.
+La presente investigación se centra en probar un método basado en la geolocalización que considere factores de peso ajustados a los criterios de la organización en cada ubicación, con el fin de determinar la localización óptima para mejorar el servicio, además de reducir costos y generar recursos que puedan emplearse en otras áreas productivas de la empresa, lo que a su vez redunda en ofrecer servicios de mayor calidad.
+Los clientes de la empresa son principalmente hospitales públicos y centros médicos privados que requieren del equipamiento médico especializado ofrecido por Xmedica SA para ofrecer servicios de atención médica a todos los niveles, desde prevención primaria hasta cirugías de alta complejidad, por lo que es prioritario para la sociedad que cuenten siempre con los equipos biomédicos operativos.
+La propuesta metodológica resultante de ésta investigación servirá como referencia para otras organizaciones que se encuentren en similar situación, ya que existe poca documentación relevante en idioma español en el contexto suramericano.
+
+Horizons of Railway Transport 2020. Optimisation of Distribution Routes for Branch Office of Česká pošta, s.p. (Czech Post). Josef Šedivý, *, Jiří Čejka
+Technician Field Service Management 4.0 Michael Voessing and Johannes Kunze von Bischhoffshause. 2018
+
+
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
