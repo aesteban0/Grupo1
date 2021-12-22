@@ -38,6 +38,24 @@ Se busca emplazar la sucursal de una empresa de servicios cuyos clientes son cen
 ## Modelo ORLOca - Operations Research LOCational Analysis Models
 
 Calcula la mínima suma ponderada de las distancias a los puntos de demanda, se basa en el problema presentado por Fermat-Weber
+Introducción a la ubicación plana con orloca
+Manuel Muñoz-Márquez, 1
+El paquete RcmdrPlugin.orloca dedicado a resolver el problema de ubicación continua plana, ha sido desarrollado para R como software gratuito.
+Está destinado a ser utilizado como una manera fácil de presentar a los estudiantes los problemas de ubicación de puntos planos. Esto se hace proporcionando una guía y una aplicación interactiva en línea para manejar y resolver dicho problema.
+1. Introducción
+Ante un problema de ubicación, buscamos la ubicación óptima de un servicio. Ejemplos de los problemas de localización son: encontrar la ubicación óptima del almacén central o una ambulancia que deba atender a los pacientes.
+El paquete resuelve el problema de ubicar un solo punto en el plano, minimizando la suma de las distancias ponderadas a los puntos de demanda.
+2. Características del paquete
+Se ha definido una nueva clase de objetos, designada como loca.p, para manejar instancias del problema.
+Desde el menú se pueden crear nuevas instancias de objetos loca.p, generar nuevas instancias aleatorias y hacer resúmenes de los datos. También se puede evaluar la distancia media ponderada, en el siguiente distsum y calcular la pendiente de la misma.
+También hay una opción para encontrar el mínimo de distsum usando el algoritmo de Weiszfeld, [2] ; [3], o una optimización global. El algoritmo de Weiszfeld incluye una prueba de optimización para los puntos de demanda. Se han proporcionado cuatro opciones para hacer algunos gráficos, como muestran las figuras. El menú de ayuda proporciona varias opciones para obtener más información sobre el uso del paquete y proporciona varios ejemplos.
+![image](https://user-images.githubusercontent.com/95891858/147104999-bdaf240d-7965-465e-9b01-9659083a2854.png)
+3 Conclusiones
+El paquete RcmdrPlugin.orloca resuelve el problema de ubicación plana de un solo servicio utilizando menús fáciles de usar, por lo que es una buena manera de presentar este problema a los estudiantes. 
+4 Referencias
+[1] Manuel Munoz-Marquez. A GUI for Planar Location Problems. Cadiz University, 4.6 edition, 2018.
+[2] E. Weiszfeld. Sur le point pour lequel la Somme des distances de n points donnés est minimum. Tohoku Mathematical Journal, First Series, 43:355–386, 1937.
+[3] E.Weiszfeld and Frank Plastria. On the point for which the sum of the distances to n given points is minimum. Annals of Operations Research, 167(1):7–41, Mar 2009.
 
 
 
