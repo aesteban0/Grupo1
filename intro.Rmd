@@ -1,0 +1,91 @@
+---
+title: "Introducción"
+author: "Zárate Claudia"
+date: "16/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```
+# Metodología para localización de centro de distribución de una empresa de equipamiento médico utilizando la herramienta OrLoca 
+```
+## 1-Introducción 
+
+La localización de una instalación es el proceso de elegir un lugar geográfico para realizar las operaciones de una empresa. En general se trata de una decisión poco frecuente, de hecho, algunas empresas la toman una sóla vez en su historia. No obstante, la frecuencia de la decisión depende si es una empresa de manufactura o de servicios. es mas habitual tener que localizar puntos de ventas que fábricas. y además, una empresa de servicios suele necesitar más de un punto de venta.Este carácter infrecuente hace que los gerentes no estén habituados a tomarlas y esto dificulta la comprensión de su importancia.
+La decisión de localización produce un profundo impacto en la organización. Las relaciones con los proveedores se ven tan afectadas como las relaciones con los clientes. Aún en los casos en los que el contacto con el cliente es pasivo (como puede ser el caso de la manufactura), la distancia existente entre el proveedor o cliente y la empresa puede generar dificultades si el tiempo o la distancia entre proveedor / cliente a la empresa es demasiado grande.  
+  De todas formas, sin lugar  a dudas la localización tiene un impacto significativo en los costos de operación y en consecuencia en su competitividad. 
+La estrategia de la organización y su efecto en la cadena de valor debe verse reflejada en la decisión de localización.
+
+Entre las diversas causas que pueden dar origen a un problema de localización Machuca cita, entre otras, a :  
+
+ * Mercado en expansión que hace necesario un aumento de la capacidad de producción  
+ 
+  * Introducción de nuevos productos, que lleva a un problema análogo al anterior   
+  * Contracción de la demanda, que puede requerir el cierre de instalaciones y hay que determinar cuál es la instalación que debe cerrar  
+  
+  * Agotamiento de las fuentes de abastecimiento de las materias, tal el caso de las mineras cuando se agota su fuente debe mudarse otro lugar 
+  
+ * Presión dela competencia que puede obligar a abrir otra instalación  
+ 
+ * Etc.  
+ 
+### Importancia de la decisión de localización 
+ 
+  La importancia de la de decisión de localización viene dada principalmente por dos razones: por un lado, la localización tiene implícita una importante cantidad de recursos financieros los que una vez construida la instalación en el sitio seleccionado no se recupera fácilmente. Se trata de una decisión rígida que compromete a la empresa en el largo plazo.  
+Por otra parte, la localización afecta la competitividad de la empresa. Una buena localización favorecerá el desarrollo eficiente de las operaciones en forma competitiva. Todas las áreas de la empresa pueden verse afectadas por la localización. La influencia de la localización no se ve reflejada únicamente en los costos, sino también sobre los ingresos de la organización. 
+  
+### Factores que afectan las decisiones de localización 
+
+Dado el efecto que tiene la localización sobre los procesos de la organización, es importante considerar distintos factores, al momento de tomar la decisión. algunos autores como Krajewski indican que dichos factores se encuentran diferenciados si se trata de empresas de manufactura o de servicios. Esto es debido a que los procesos que en dichas organizaciones se desarrollan se ven afectados en manera distinta por la localización.  
+En general , los factores más importantes que se deben considerar para la localización de plantas manufactureras o de servicios son:  
+
+* clima laboral favorable: vinculado a las tarifas salariales, sindicalización, actitud de la comunidad a la fuente de trabajo etc.. Este factor es dominante en aquellos casos de la industria de mano de obra intensiva (industria textil, mueblerías, entre otras).  
+
+* Proximidad de los mercados: este factor considera el costo del transporte hasta el cliente. Es muy importante cuando se trata de productos voluminosos o pesados, en cuyo caso, el transporte hasta el cliente implica altas tarifas. En estos casos, localizar la instalación cerca del cliente afecta - disminuye- los costos operativos de la organización.  
+* Calidad de vida: es un factor que cada vez está siendo más considerado. Los emplazamientos con instituciones educativas prestigiosas, eventos culturales y estilo de vida atractivo contribuyen  a elevar la calidad de vida y suelen ser preferidos.  
+* Proximidad a proveedores y recursos: es fundamental para aquellas empresas cuyos insumos son voluminosos, perecederos o pesados, que implican un costo adicional para acercarlos a la organización.  
+* Costos de servicios públicos, impuestos y bienes raíces: en muchos casos, también puede ser un factor dominante, la posibilidad de emplazamientos en parques industriales, incentivos del estado, suelen ser considerados como dominantes al momento de la elección.  
+* Mano de Obra: la disponibilidad de Mano de Obra capacitada suele ser un factor clave para  aquellas industrias de MO Intensiva.
+
+* otros factores: posibilidad de expansión, legislación, disposiciones locales tales como la regulacion del impacto ambiental, actitud de la comunidad, la climatología, la existencia de suministros básicos, etc..    
+
+### El proceso de decisión de localización
+
+Determinada la decisión de localización, el primer paso será la formación de un equipo de trabajo,que será el encargado de realizar el estudio. es deseable la multifuncionalidad del mismo, es decir, que participen representantes de los distintos sectores de la organización.  
+El procedimiento a llevarse a cabo para tomar una decisión de localización abarcaría las siguientes fases: 
+
+1. Análisis preliminar: aquí se analiza la estrategia y objetivos de la empresa y se traducen en requerimientos de localización. dada la cantidad de factores que afectan a la localización aqui se deben definir cuáles son los criterios más importantes para evaluar las alternativas. La definición de la importancia dependerá de cómo afectan los mismos en los costes, en los ingresos de la empresa y en su competitividad. en esta fase entonces se determinan los factores o criterios clave que se derivan de la estrategia de la empresa.
+2. Búsqueda de alternativas de localización: se establece un número de localizaciones posibles, descartándose aquellas que no cumplan con alguno de los criterios clave definidos en el proceso anterior 
+3. Evaluación de alternativas: En esta fase se recoge toda la información de las distintas alternativas para medirla en función de cada uno de los factores considerados. esta evaluación puede considerar factores cuantitativas (por ejemplo costo del terreno) como factores cualitativos (actitud de la comunidad).
+4. Selección de la localización: a través del análisis anterior se comparan las distintas localizaciones. Dado que es poco probable que una localización sea mejor que el resto en todos los criterios, no se busca la solución óptima sino que se busca la mejor. en esta última instancia, los factores mas subjetivos, como pueden ser las peferencias de la dirección deterinarán la localización definitiva.
+
+
+Por último es importante observar que en el entorno dinámico en el cual hoy se desempeñan las organizaciones, los factores determinantes de una localización como las alternativas no permanecen inalterables con el tiempo. Por ejemplo, la automatización de los procesos hacen que el factor MO se vea sensiblemente modificado; la adopción de los sistemas JIT hace que la necesidad de cercanía con el proveedor cambie su importancia; las mejoras en los transportes y las nuevas tecnologías de la información contribuye a la internacionalización de las operaciones, ampliando la posibilidad de las alternativas.  
+
+
+
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}o desummary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
