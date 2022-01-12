@@ -85,7 +85,8 @@ En general, los factores más importantes que se deben considerar para la locali
 
 * Mano de Obra (MO): la disponibilidad de Mano de Obra capacitada suele ser un factor clave para  aquellas industrias de MO Intensiva.
 
-* Otros factores: posibilidad de expansión, legislación, disposiciones locales tales como la regulación del impacto ambiental, actitud de la comunidad, la climatología, la existencia de suministros básicos, etc.    
+* Otros factores: posibilidad de expansión, legislación, disposiciones locales tales como la regulación del impacto ambiental, actitud de la comunidad, la climatología, la existencia de suministros básicos, etc. 
+</div>
 
 >### El proceso de decisión de localización
 
@@ -109,12 +110,13 @@ Por último es importante observar que en el entorno dinámico en el cual hoy se
  
 <div style="text-align: justify">
  La herramienta Orloca se basa en el problema presentado por Fermat-Weber, estudiado por varios autores como [@durier1985geometrical], [@weiszfeld2009point]. 
- El paquete RcmdrPlugin.orloca dedicado a resolver el problema de ubicación continua plana, ha sido desarrollado por [@munoz2020package] para R como software gratuito. Resuelve el problema de ubicar un solo punto en el plano, minimizando la suma de las distancias ponderadas a los puntos de demanda
+ El paquete RcmdrPlugin.orloca dedicado a resolver el problema de ubicación continua plana, ha sido desarrollado por [@munoz2020package] para R como software gratuito. Resuelve el problema de ubicar un solo punto en el plano, minimizando la suma de las distancias ponderadas a los puntos de demanda.
 </div>
  
  
 ## 3. Desarrollo
 
+<div style="text-align: justify">
 Se presentan en primera instancia los datos del problema, que incluyen la definición de los criterios y su ponderación y las alternativas de localización. Cabe destacar que para la definición de los criterios se ha integrado un comité multidisciplinario, formado por las distintas partes interesadas de la organización. Posteriormente se realiza la evaluación de las alternativas, considerando los criterios establecidos. Finalmente se aplica la herramienta Orloca y se presentan los resultados obtenidos.
 </div>
 
@@ -140,18 +142,18 @@ A5: COPIAPÓ
 El comité multidisciplinarios acuerda que los siguientes criterios son los mas importantes para definir la localización:
 
 
-* Población: dado que se carecen de datos reales de demanda, se considerará la cantidad de habitantes como indicativo de la demanda
+* Población: dado que se carecen de datos reales de demanda, se considerará la cantidad de habitantes como indicativo de la demanda.
 
 * Distancia a Santiago de Chile: se considera este factor como claro indicador del costo de la decisión, dadas las características del negocio.
 
-* Suministros básicos (electricidad e internet): este criterio se selcciona por por las características de los bienes que se comercializan y porque se ha pensado en la instalaciÓn de importantes sistemas de información dentro del CD que hacen de Internet un suministro clave
+* Suministros básicos (electricidad e internet): este criterio se selcciona por por las características de los bienes que se comercializan y porque se ha pensado en la instalaciÓn de importantes sistemas de información dentro del CD que hacen de Internet un suministro clave.
 
-* Accesibilidad: este criterio considera la accesibilidad de las alternativas 
+* Accesibilidad: este criterio considera la accesibilidad de las alternativas. 
 
-* Mano de Obra: se considera este criterio dado que tanto la maniulacion, puesta en marcha y mantenimiento de los equipos requiere de personal capacitado
+* Mano de Obra: se considera este criterio dado que tanto la maniulacion, puesta en marcha y mantenimiento de los equipos requiere de personal capacitado.
 
 
-* Relieve: este criterio contempla las características del terreno dado que  la entrega al cliente final de los bienes se realiza en vehículos por vía terrestre
+* Relieve: este criterio contempla las características del terreno dado que  la entrega al cliente final de los bienes se realiza en vehículos por vía terrestre.
 
 * Costo: con este criterio se considera el costo de instalar en centro de distribución: costo del terreno e impositivo. 
 </div>
@@ -258,7 +260,7 @@ plot(chile, img=img, main="Figura 2: Puntos del objeto loca.p en el mapa Chile z
 <div style="text-align: justify">
 Las curvas de nivel brindan una información fundamental, ya que circunscriben la solución encontrada a una región posible.
 La herramienta brinda por defecto la curva de nivel correspondiente a 1500 (Figura 3). Esta zona además se puede amplificar a una zona más cercana al punto (Figura 4).
-div>
+</div>
 
 ```{r}
 contour(chile, img=img, main="Figura 3: Curvas de nivel en el mapa Chile zona norte", xleft=0, ybottom=0, xright=800, ytop=800)
@@ -347,10 +349,12 @@ distsum(chile, x=solucion6[1], y=solucion6[2])
 distsum(chile, x=solucion7[1], y=solucion7[2])
 ```
 
+<div style="text-align: justify">
 Para los datos ingresados del caso analizado de la empresa Datamedica SA, se desprende de los resultados hallados, que no existen diferencias importantes entre las soluciones arrojadas por los distintos algoritmos.Tampoco se encuentran diferencias entre la norma Euclidea (Lp=2) y otras normas distintas de Lp=2. Si bien se observan muy pequeñas variaciones por la aplicación de los distintos algoritmos,la distancia media ponderada al valor hallado, es prácticamente constante.
 Las soluciones halladas para los restantes "w" presentaron un comportamiento similar. 
 
 En consecuencia se presentan en Tabla 4 las soluciones encontradas por el algoritmo por defecto para los distintos "w" presentados en Tabla 3.
+</div>
 
 ```{r, echo=FALSE, message=FALSE}
 
@@ -386,8 +390,9 @@ Se observa que las soluciones obtenidas aplicando la herramienta Orloca para los
 
 #### Solución Resumen
 <div style="text-align: justify">
-Se definió una solución resumen que incluye a todas las soluciones encontradas para los distintos pesos 
+Se definió una solución resumen que incluye a todas las soluciones encontradas para los distintos pesos.
 
+</div>
 
 ```{r}
 solucion_R <- distsummin(Soluciones_loca)
@@ -400,6 +405,8 @@ solucion_R
 contour(Soluciones_loca, img=img, main="Figura 6: Solución resumen", xleft=0, ybottom=0, xright=800, ytop=800)
 points(solucion_R[1], solucion_R[2], type='p', col='red')
 ```
+
+<div style="text-align: justify">
 
 Se observa que la solución resumen arroja como coordenadas el punto medio de las soluciones encontradas. Se puede decir que en este caso la alternativa sería definir la localización en Antofagasta, ya que el punto encontrado corresponde a una zona de desierto.
 
