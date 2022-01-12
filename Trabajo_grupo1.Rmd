@@ -1,7 +1,7 @@
 ---
 title: "Trabajo Grupo 1"
 author: "William Aponte, María Betina Berardi, Gilberto Robinson Cetre Palacio, Alejandra María Esteban, Claudia Zárate, Emiliano Tobares"
-date: "16/12/2021"
+date: "12/01/2022"
 bibliography: Biblio.bib
 csl: apa.csl
 output: html_document
